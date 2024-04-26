@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Тестовое в аутсорс компанию</title>
+</head>
+<body>
+    <div class="overlay">
+    
+	<div id="video" >
+ 	 <video id="hladVideo" width="auto" height="100%" autoplay="autoplay" preload="auto" muted="muted"  >
+   		<source src="./assets/media/hero-video.mp4"></source>
+       
+ 	 </video>
+	</div>
+     </div>
+     <header>
+       <div class="container content">        
+                <div class="hero_info desctop">
+
+                    <div class="col-1">
+                     
+                       <div class="attention-message">
+                        <p class="attention">САЙТ В РАЗРАБОТКЕ</p>
+                       </div>
+
+                    <img class="logo" src="assets/media/logo.svg" alt="hlad-logo">
+
+                    </div>
+
+                    <div class="col-2">
+                     <div class="contact-info">
+                    <p>КОНТАКТЫ</p>
+                     <a class="email-link" href="">INFO@HLADEXPRESS.RU</a> 
+                     <a class="tel-link link" href=""> 8 496 566-50-50</a> 
+                  
+                     </div>
+
+
+                    <h1>HLAD <img class="express" src="assets/media/express.svg" alt=""></h1>
+                     
+                     <h1 class="animate-text"></h1>
+                    </div>
+                    <div class="col-3">
+                        <p class="sub-header">ПЕРЕВОЗКИ С ТЕМПЕРАТУРНЫМ РЕЖИМОМ</p>
+                    </div>
+                </div>
+                
+                
+                 <div class="hero_info mobile">
+
+                    <div class="col-1">
+        
+                    <img class="logo" src="assets/media/logo.svg" alt="hlad-logo">
+
+                    </div>
+
+                    <div class="col-2">
+                    	             
+                    <div class="attention-message">
+                        <p class="attention">САЙТ В РАЗРАБОТКЕ</p>
+                    </div>
+
+                     <div class="contact-info">
+                    <p>КОНТАКТЫ</p>
+                     <a class="email-link" href="">INFO@HLADEXPRESS.RU</a> 
+                     <a class="tel-link link" href=""> 8 496 566-50-50</a> 
+                  
+                     </div>
+
+                 
+                   
+                    </div>
+                    <div class="col-fixed">
+                        <h1>HLAD <img class="express" src="assets/media/express.svg" alt=""></h1>
+                        <h1 class="animate-text"></h1>
+                    </div>
+                    
+                    <div class="col-3">
+                    
+                        <p class="sub-header">ПЕРЕВОЗКИ С ТЕМПЕРАТУРНЫМ РЕЖИМОМ</p>
+                    </div>
+                </div>
+
+
+
+            <form method="POST" class="contact_form" id="contactForm">
+                <p class="form-title">ОСТАВИТЬ ЗАЯВКУ</p>
+                <input type="text" id="name" name="name" class="input_name" placeholder="ИМЯ"/>
+                <input type="text" id="phone" name="phone" class="input_phone" placeholder="ТЕЛЕФОН" />
+                <button type="submit" name="send" class="submit" id="submit">ОСТАВИТЬ ЗАЯВКУ</button>
+            </form>
+
+
+
+       </div>
+    </header>
+  
+    <div id="thank" class="modal">
+        <div class="modal-container">
+        <h2 class="modal-header">Ваша заявка успешно отправлена!</h2>
+        <h2 class="modal-text">Мы свяжемся с вами в ближайшее время</h2>
+        <div class=" icon close" id="close-thank"></div>
+        </div>
+    </div>
+    <div id="wrong" class="modal">
+        <div class="modal-container">
+        <h2 class="modal-header">Ваша заявка не отправлена!</h2>
+        <h2 class="modal-text">Попробуйте обновить страницу и отправить еще раз</h2>
+        <div class=" icon close" id="close-wrong"></div>
+        </div>
+    </div>
+    <div id="already" class="modal">
+        <div class="modal-container">
+        <h2 class="modal-header">Вы уже отправляли заявку!</h2>
+        <h2 class="modal-text">Мы скоро свяжемся с Вами!</h2>
+        <div class=" icon close" id="close-already"></div>
+        </div>
+    </div>
+    <div id="noDataInputs" class="modal">
+        <div class="modal-container">
+        <h2 class="modal-header">Введите данные в оба поля!</h2>
+        <div class=" icon close" id="close-noData"></div>
+        </div>
+    </div>
+ </body>
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="scripts/jquery.shuffleLetters.js"></script>
+<script src="scripts/main.js"></script>
+<script src="scripts/sendForm.js"></script>
+<script>
+
+	</script>
+</html>
